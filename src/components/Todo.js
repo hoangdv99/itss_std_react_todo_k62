@@ -33,7 +33,7 @@ function Todo() {
         ITSS ToDoアプリ
       </div>
       {items.map(item => (
-        <TodoItem key={item.getKey} item={item} />
+        <TodoItem key={item.getKey} item={item}  />
       ))}
       <div className="panel-block">
         {items.length} items
