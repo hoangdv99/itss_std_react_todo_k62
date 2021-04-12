@@ -17,7 +17,7 @@ function TodoItem({item, onCheck}) {
         onChange={handleChange}
       />
       <span className={item.done ? 'has-text-grey-light' : ''}>
-        {item.text}
+        {item.input}
       </span>
     </label>
   );
